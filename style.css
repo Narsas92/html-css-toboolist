@@ -3,6 +3,7 @@
     margin-left: 120px;
     margin-right: 120px;
 }
+
 #logo {
     width: 100px;
     vertical-align: middle;
@@ -13,49 +14,50 @@
     font-weight: bold;
 }
 #sfondo{
-    background-color: #898b8b;
-    position: absolute;
+    background-color: #b1b6b6;
+    padding: 2%;
 
-    height: 80%;
-    width: 80%;
-
-    left: 10%;
-    top: 15%;
-
-    border-radius: 10px;
+}
+#tasti
+{
+    height: 40px;
+    background-color: #cecece;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 1%;
+    margin-top: 30px;
+    
 }
 #sfondo2{
-    background-color: #b3b6b6de;
-    position: relative;
-    left: 70px;
-    top: 10px;
+    background-color: #ffffffde;
+    margin-left: 5%;
+    margin-right: 5%
      ;
 }
 #pulsante{
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
+    
     border-radius: 8px;
     outline: none;
-text-align: center;
-text-decoration: none;
-font: bold 12px Arial, Helvetica, sans-serif;
-color: #fff;
-padding: 10px 20px;
-border: solid 1px #0076a3;
-background: #0095cd;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 7px 15px;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    
 }
 #pulsante2{
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
+   
     border-radius: 8px;
     outline: none;
-text-align: center;
-text-decoration: none;
-font: bold 12px Arial, Helvetica, sans-serif;
-color: rgb(223, 219, 219);
-padding: 10px 20px;
-border: solid 1px #898b8b;
-background: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: rgb(223, 219, 219);
+    padding: 7px 15px;
+    border: solid 1px #898b8b;
+    background: #ffffff;
 }
 
 .badge{
@@ -71,11 +73,15 @@ background: #ffffff;
     color: green;
     border-style: solid;
     border-radius: 50%;
+    border-width: 1px;
+    
 }
 .cross{
     color: rgb(252, 5, 5);
     border-style: solid;
     border-radius: 50%;
+    border-width: 1px;
+    
 }
 .button-pt2{
     border-radius: 4px;
