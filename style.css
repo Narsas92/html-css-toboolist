@@ -1,0 +1,39 @@
+#logo {
+    width: 100px;
+    vertical-align: middle;
+}
+#logo-container{
+    line-height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#char{
+    font-size: 100px;
+}
+
+#pulsante{
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #0095cd;
+}
+#pulsante2{
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: rgb(223, 219, 219);
+padding: 10px 20px;
+border: solid 1px #898b8b;
+background: #ffffff;
+}
